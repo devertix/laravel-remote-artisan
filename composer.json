@@ -1,0 +1,27 @@
+{
+    "name": "devertix/laravel-remote-artisan",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devertix\\LaravelRemoteArtisan\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Norbert Mozsar",
+            "email": "norbert.mozsar@devertix.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devertix\\LaravelRemoteArtisan\\LaravelRemoteArtisanProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "require": {
+        "laravel/framework": "9.*|10.*"
+    }
+}
